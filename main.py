@@ -36,7 +36,7 @@ elif comp_idx == 2:
     else:
         print('No such vectorizer found!!')
 
-elif comp_idx == 2:
+elif comp_idx == 3:
     print("\nEnter the index of the wanted vectorizer to use with NLTK tokenizer :\n1 for 'BERT' embedding.\n2 for 'Stemmer' vectorizer.\n3 for 'Lemmatizer' vectorizer.\n")
     vect_idx = int(input('> '))
 
